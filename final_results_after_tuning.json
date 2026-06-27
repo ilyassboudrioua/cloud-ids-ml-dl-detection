@@ -1,0 +1,22 @@
+{
+  "Random Forest (optimise via GridSearch)": {
+    "Accuracy": 0.99935263839328,
+    "Precision": 0.9989331334159914,
+    "Recall": 0.9987027587996194,
+    "F1-score": 0.9988179328239873,
+    "AUC-ROC": 0.9999973058861604,
+    "Temps entrainement (s)": 67.12003636360168,
+    "Meilleurs hyperparametres": {
+      "max_depth": 20,
+      "n_estimators": 150
+    }
+  },
+  "MLP (DL)": {
+    "Accuracy": 0.8794881106514668,
+    "Precision": 0.9181160668159118,
+    "Recall": 0.6147770186514457,
+    "F1-score": 0.7364331716076454,
+    "AUC-ROC": 0.9427772455111256,
+    "Temps entrainement (s)": 156.65001940727234
+  }
+}
